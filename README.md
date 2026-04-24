@@ -6,7 +6,7 @@ GPIO inverter for Raspberry Pi based CocktailPi machine. To be used with the cus
 - Reads GPIO27
 - Outputs inverse signal to GPIO22
 
-## Install (one command)
+## Install with one command!
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main/install.sh | bash
