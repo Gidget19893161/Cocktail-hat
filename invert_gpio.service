@@ -1,0 +1,13 @@
+[Unit]
+Description=Invert GPIO27 to GPIO22
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/invert_gpio.py
+Restart=always
+RestartSec=3
+User=pi
+WorkingDirectory=/home/pi
+
+[Install]
+WantedBy=multi-user.target
