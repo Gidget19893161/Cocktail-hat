@@ -12,7 +12,7 @@ GPIO inverter for Raspberry Pi-based CocktailPi machine. To be used with the cus
 curl -sSL https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main/scripts/install.sh | bash
 ```
 
-## Install with one command!
+## Uninstall with one command!
 ```bash
 curl -sSL https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main/scripts/uninstall.sh | bash
 ```
