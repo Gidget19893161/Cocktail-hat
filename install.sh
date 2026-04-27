@@ -2,15 +2,19 @@
 
 set -e
 
+REPO="https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main"
+
 echo "Installing dependencies..."
 sudo apt update
 sudo apt install -y python3-lgpio
 
-echo "Copying script..."
-cp invert_gpio.py /home/pi/
+echo "Downloading script..."
+curl -sSL $REPO/invert_gpio.py -o /home/pi/invert_gpio.py
+sudo chown pi:pi /home/pi/invert_gpio.py
 
-echo "Installing service..."
-sudo cp invert_gpio.service /etc/systemd/system/
+echo "Downloading service..."
+curl -sSL $REPO/invert_gpio.service -o /tmp/invert_gpio.service
+sudo mv /tmp/invert_gpio.service /etc/systemd/system/invert_gpio.service
 
 echo "Reloading systemd..."
 sudo systemctl daemon-reload
@@ -19,7 +23,7 @@ echo "Enabling service..."
 sudo systemctl enable invert_gpio.service
 
 echo "Starting service..."
-sudo systemctl start invert_gpio.service
+sudo systemctl restart invert_gpio.service
 
 echo "Done! Checking status..."
 systemctl status invert_gpio.service --no-pager
