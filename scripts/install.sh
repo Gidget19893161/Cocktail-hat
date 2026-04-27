@@ -9,11 +9,11 @@ sudo apt update
 sudo apt install -y python3-lgpio
 
 echo "Downloading script..."
-curl -sSL $REPO/invert_gpio.py -o /home/pi/invert_gpio.py
+curl -sSL $REPO/src/invert_gpio.py -o /home/pi/invert_gpio.py
 sudo chown pi:pi /home/pi/invert_gpio.py
 
 echo "Downloading service..."
-curl -sSL $REPO/invert_gpio.service -o /tmp/invert_gpio.service
+curl -sSL $REPO/systemd/invert_gpio.service -o /tmp/invert_gpio.service
 sudo mv /tmp/invert_gpio.service /etc/systemd/system/invert_gpio.service
 
 echo "Reloading systemd..."
