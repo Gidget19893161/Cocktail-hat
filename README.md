@@ -1,6 +1,6 @@
 # Cocktail-hat
 
-GPIO inverter for Raspberry Pi based CocktailPi machine. To be used with the custom designed Cocktail-Hat
+GPIO inverter for Raspberry Pi-based CocktailPi machine. To be used with the custom-designed Cocktail-Hat
 
 ## What it does
 - Reads GPIO27
@@ -9,4 +9,10 @@ GPIO inverter for Raspberry Pi based CocktailPi machine. To be used with the cus
 ## Install with one command!
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main/scripts/install.sh | bash
+```
+
+## Install with one command!
+```bash
+curl -sSL https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main/scripts/uninstall.sh | bash
+```
