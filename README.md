@@ -20,9 +20,11 @@ curl -sSL https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main/scr
 
 
 
-## License
+## Licensing
 
 This project uses separate licenses for software, hardware, and documentation.
+Please see [`LICENSES/`](LICENSES) to read all licenses attached to this project.
+
 
 ### Software
 
