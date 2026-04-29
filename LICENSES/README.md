@@ -1,4 +1,4 @@
-#License
+## License
 This project uses separate licenses for software, hardware, and documentation.
 
 #Software
