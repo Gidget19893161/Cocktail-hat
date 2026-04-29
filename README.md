@@ -22,9 +22,25 @@ curl -sSL https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main/scr
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0.
+This project uses separate licenses for software, hardware, and documentation.
+
+### Software
+
+The software portions of this project, including scripts, service files, and configuration code, are licensed under the GNU General Public License v3.0.
 
 See the [LICENSE](LICENSE) file for details.
+
+### Hardware
+
+The hardware design portions of this project, including PCB files, schematics, wiring diagrams, board files, Gerber files, and related hardware design materials, are licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
+
+See [`LICENSES/CERN-OHL-S-2.0.txt`](LICENSES/CERN-OHL-S-2.0.txt).
+
+### Documentation
+
+The written documentation, setup instructions, photos, wiring guides, and explanatory materials are licensed under Creative Commons Attribution 4.0 International.
+
+See [`LICENSES/CC-BY-4.0.txt`](LICENSES/CC-BY-4.0.txt).
 
 ## Hardware and Safety Notice
 
