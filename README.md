@@ -1,4 +1,4 @@
-# Cocktail-hat
+# Cocktail Hat
 
 GPIO inverter for Raspberry Pi-based CocktailPi machine. To be used with the custom-designed Cocktail-Hat
 
