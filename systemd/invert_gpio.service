@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 [Unit]
 Description=Invert GPIO27 to GPIO22
 After=multi-user.target

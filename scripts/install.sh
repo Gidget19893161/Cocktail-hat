@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 set -e
 
 REPO="https://raw.githubusercontent.com/Gidget19893161/Cocktail-hat/main"
