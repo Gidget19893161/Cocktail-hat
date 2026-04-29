@@ -28,7 +28,7 @@ This project uses separate licenses for software, hardware, and documentation.
 
 The software portions of this project, including scripts, service files, and configuration code, are licensed under the GNU General Public License v3.0.
 
-See the [LICENSE](LICENSE) file for details.
+See the [`LICENSES/CERN-OHL-S-2.0.txt`](LICENSES/CERN-OHL-S-2.0.txt) file for details.
 
 ### Hardware
 
