@@ -31,19 +31,19 @@ This project uses separate licenses for software, hardware, and documentation.
 
 The software portions of this project, including scripts, service files, and configuration code, are licensed under the GNU General Public License v3.0 or later.
 
-See `LICENSE/GPL-3.0-or-later.txt`.
+See `LICENSES/GPL-3.0-or-later.txt`.
 
 ### Hardware
 
 The hardware design portions of this project, including schematics, wiring diagrams, board files, Gerber files, and related manufacturing files, are licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
 
-See `LICENSE/CERN-OHL-S-2.0.txt`.
+See `LICENSES/CERN-OHL-S-2.0.txt`.
 
 ### Documentation
 
 The written documentation, setup instructions, photos, and explanatory materials are licensed under Creative Commons Attribution 4.0 International.
 
-See `LICENSE/CC-BY-4.0.txt`.
+See `LICENSES/CC-BY-4.0.txt`.
 
 ## Safety Disclaimer
 
